@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify cart",
+        "description": "",
+        "id": "kklmklkmmk;verify-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 978490800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "Login2.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 691374900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Nokia lumia",
+            "match": {
+              "location": "Cartt.click_Nokia_lumia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5308075000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click add to cart",
+            "match": {
+              "location": "Cartt.click_add_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 573566400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click click cart",
+            "match": {
+              "location": "Cartt.click_click_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5195245000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify item added in cart",
+            "match": {
+              "location": "Cartt.verify_item_added_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Cart"
+          }
+        ]
+      }
+    ],
+    "name": "kklmklkmmk",
+    "description": "",
+    "id": "kklmklkmmk",
+    "keyword": "Feature",
+    "uri": "Cartt.feature"
+  }
+]
